@@ -1,0 +1,14 @@
+{
+  "name": "storytelling-assistant",
+  "version": "1.0.0",
+  "description": "Electron wrapper for the Flask Creative Storytelling Assistant",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . storytelling-assistant --overwrite"
+  },
+  "devDependencies": {
+    "electron": "^28.2.3",
+    "electron-packager": "^17.1.1"
+  }
+}
